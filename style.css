@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.navbare {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+.navbare a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbare a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 74vh !important;
+    background: url(imagenes/bg4.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #fff ;
+    padding: 0 100px;
+        justify-content: center;
+    align-items: center;
+}
+.info {
+   font-family: "Black Ops One" system-ui;
+   font-size: 27px;
+    color:#cf405f;
+background-color: #171717;
+    padding: 0 70px;
+
+ 
+}
+
+.btn {
+    font-family: "Aclonica", sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #a80c2e;
+    color: #fff;
+    text-decoration: none;
+    background: #a80c2e;
+}
+
+.btn:hover {
+    background: #b02745;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenp {
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.contenpp {
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.saii{
+    padding: 15px;
+    background: #171717;
+}
+.saiii{
+    padding: 40px;
+    background: #171717;
+}
+
+
+
+.sau{
+    padding: 20px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #a80c2e;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 2opx;
+    color: #a80c2e;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(imagenes/bg4.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+
+.wawa {
+    background: #171717;
+}
+/*fotos proyecto*/
+.img-5 {
+    width: 350px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    top: 1370px;
+    left: 660px;
+}
+.img-6 {
+    width: 450px;
+    height: 300px;
+    float: right;
+    position: absolute;
+    top: 1060px;
+    left: 150px;
+}
+.img-7 {
+    width: 450px;
+    height: 300px;
+    float: center center;
+    position: absolute;
+    top: 1060px;
+    left:620px; 
+}
+.img-8 {
+    width: 450px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    top: 1370px;
+    left: 150px;
+}
+
+
+/*fotos proceso*/
+.img-1 {
+    width: 350px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    top: 759px;
+    left: 75px;
+}
+.img-2 {
+    width: 400px;
+    height: 200px;
+    float: right;
+    position: absolute;
+    top: 759px;
+    right: 150px;
+}
+.img-3 {
+    width: 400px;
+    height: 200px;
+    float: center center;
+    position: absolute;
+    top: 950px;
+    left:675px;
+}
+.img-4 {
+    width: 250px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    top: 759px;
+    left: 425px;
+}
+
+.img-01 {
+    width: 350px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    top: 1680px;
+    left: 100px;
+}
+.img-02 {
+    width: 350px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 1680px;
+    right: 100px;
+}
+.img-03 {
+    width: 350px;
+    height: 400px;
+    float: center center;
+    position: absolute;
+    top: 1680px;
+    left:450px;
+}
+
+.img-04 {
+    width: 350px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    top:2320px;
+    left: 70px;
+}
+.img-05 {
+    width: 350px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 2320px;
+    right: 453px;
+}
+.img-06 {
+    width: 350px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 2320px;
+    right: 100px;
+}
+.img-07 {
+    width: 320px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    top:2743px;
+    left: 70px;
+}
+.img-08 {
+    width: 320px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: 2743px;
+    right: 510px;
+}
+.img-09 {
+    width: 400px;
+    height: 300px;
+    float: right;
+    position: absolute;
+    top: 2743px;
+    right: 100px;
+}
+
+
+
+/* Tamaño pantalla minimizada */
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .navbare {
+        display: inline;
+    }
+    .saii{
+    padding: 15px;
+    background: #171717;
+    }
+    .saiii{
+    padding: 20px;
+    background: #171717;
+    }
+/* tiro al blanco   */
+    .img-6 {
+    width: 330px;
+    height: 250px;
+    float: right;
+    position: absolute;
+    top: 1450px;
+    left: 40px;
+    }
+    .img-7 {
+    width: 330px;
+    height: 250px;
+    float: center center;
+    position: absolute;
+    top: 1450px;
+    left:380px; 
+    }
+    .img-8 {
+    width: 330px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top: 1725px;
+    left: 40px;
+    }
+    .img-5 {
+    width: 330px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top: 1725px;
+    left: 380px;
+    }
+/*  proceso  */
+    .img-1 {
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top: 960px;
+    left: 10px;
+    }
+    .img-2 {
+    width: 250px;
+    height: 150px;
+    float: right;
+    position: absolute;
+    top: 960px;
+    right: 215px;
+    }
+    .img-3 {
+    width: 250px;
+    height: 100px;
+    float: right;
+    position: absolute;
+    top: 1100px;
+    left: 263px;
+    }
+    .img-4 {
+    width: 200px;
+    height: 245px;
+    float: left;
+    position: absolute;
+    top: 960px;
+    left: 520px;
+    }
+    .img-01 {
+    width: 180px;
+    height: 230px;
+    float: left;
+    position: absolute;
+    top: 1840px;
+    left: 50px;
+    }
+    .img-02 {
+    width: 160px;
+    height: 210px;
+    float: right;
+    position: absolute;
+    top: 1850px;
+    right: 300px;
+    }
+    .img-03 {
+    width: 180px;
+    height: 230px;
+    float: center center;
+    position: absolute;
+    top: 1840px;
+    left:470px;
+    }
+    .img-04 {
+    width: 200px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top:2370px;
+    left: 50px;
+    }
+    .img-05 {
+    width: 200px;
+    height: 250px;
+    float: right;
+    position: absolute;
+    top: 2370px;
+    right: 273px;
+    }
+    .img-06 {
+    width: 200px;
+    height: 250px;
+    float: right;
+    position: absolute;
+    top: 2370px;
+    right: 70px;
+    }
+    .img-07 {
+    width: 200px;
+    height: 250px;
+    float: left;
+    position: absolute;
+    top:2673px;
+    left: 30px;
+    }
+    .img-08 {
+    width: 200px;
+    height: 250px;
+    float: right;
+    position: absolute;
+    top: 2673px;
+    right: 293px;
+    }
+    .img-09 {
+    width: 270px;
+    height: 220px;
+    float: right;
+    position: absolute;
+    top: 2693px;
+    right: 23px;
+    }
+
+}
